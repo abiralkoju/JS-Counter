@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(255, 132, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 132, 100, 1) 0%,
+    rgba(253, 105, 165, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 7rem;
+  margin: 10px;
+}
+
+.btn button {
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid;
+  font-weight: bold;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background-color: rgb(237, 217, 191);
+}
